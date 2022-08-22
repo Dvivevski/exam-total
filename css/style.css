@@ -48,20 +48,56 @@ margin: 10px;
 text-align: right;
 }
 
+.graphblock {
+    box-shadow: 2px 2px 5px rgb(207, 207, 207);
+
+
+}
+
+.bg-main-col {
+    background-color: lightgray;
+}
+
+
 .imggraph1  {
     max-width: 100%;
     min-width: 100%;
 background-color: green;
+
 }
 
 .imggraph2  {
     max-width: 100%;
     min-width: 100%;
 background-color:  rgb(255, 208, 0);
+
 }
 
 .imggraph3  {
     max-width: 100%;
     min-width: 100%;
 background-color: blue;
+
+}
+
+.task-employ {
+    box-shadow: 2px 2px 5px rgb(207, 207, 207);
+
+}
+
+
+.cte {
+    color: white;
+}
+
+.topplockk1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(196, 160, 0);
+}
+
+.topplockk2 {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
 }
