@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">|
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -17,7 +20,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col s0 m0 xl2 blocknav" style="background-color:rgb(88, 88, 88);">
+            <div class="col s0 m0 xl2 blocknav">
                 <p>COMPANY</p>
                 <hr>
                 <ul>
@@ -35,48 +38,48 @@
 
 
                 <div class="row">
-                    <div class="col s12 m6 l6 xl3 ">
-                        <div class="forcolorblock">
-                            <img class="colorblock-1" src="./img/data_white.svg" alt="">
-                            <p>USED SPACE</p>
-                            <p>49/50 GB</p>
-                            <hr>
-                            <p>Get more space</p>
+                    <div class="col s12 m6 l6 xl3 adaptdiv">
+                        <div class="forcolorblock z-depth-3">
+                            <img class="colorblock-1 blockico-top z-depth-1" src="./img/data_white.svg" alt="">
+                            <p class="hcard-text">USED SPACE</p>
+                            <p class="hcard-text-2">49/50 GB</p>
+                            <hr class="hronblock">
+                            <p class="desc-top-card"> <span>   <img class="ico-top-card-desc" src="./img/alert.png" alt=""> &nbsp; </span> Get more space</p>
                         </div>
                     </div>
-                    <div class="col s12 m6 l6 xl3 ">
+                    <div class="col s12 m6 l6 xl3 adaptdiv">
 
-                        <div class="forcolorblock">
+                        <div class="forcolorblock z-depth-3">
 
-                            <img class="colorblock-2" src="./img/shop_white.svg" alt="">
-                            <p>REVENUE</p>
-                            <p>$ 34.275</p>
-                            <hr>
-                            <p>Last 24 hours</p>
-                        </div>
-
-                    </div>
-                    <div class="col s12 m6 l6 xl3 ">
-
-                        <div class="forcolorblock">
-
-                            <img class="colorblock-3" src="./img/tag_white.svg" alt="">
-                            <p>FIXED ISSUES</p>
-                            <p>75</p>
-                            <hr>
-                            <p>Tracked from github</p>
+                            <img class="colorblock-2 blockico-top z-depth-1" src="./img/shop_white.svg" alt="">
+                            <p class="hcard-text">REVENUE</p>
+                            <p class="hcard-text-2">$ 34.275</p>
+                            <hr class="hronblock">
+                            <p class="desc-top-card"> <span>   <img class="ico-top-card-desc" src="./img/calendar.png" alt=""> &nbsp; </span> Last 24 hours</p>
                         </div>
 
                     </div>
-                    <div class="col s12 m6 l6 xl3 ">
+                    <div class="col s12 m6 l6 xl3 adaptdiv">
 
-                        <div class="forcolorblock">
+                        <div class="forcolorblock z-depth-3">
 
-                            <img class="colorblock-4" src="./img/paperplane_white.svg" alt="">
-                            <p>FOLLOWERS</p>
-                            <p>+245</p>
-                            <hr>
-                            <p>Just updated</p>
+                            <img class="colorblock-3 blockico-top z-depth-1" src="./img/tag_white.svg" alt="">
+                            <p class="hcard-text">FIXED ISSUES</p>
+                            <p class="hcard-text-2">75</p>
+                            <hr class="hronblock">
+                            <p class="desc-top-card"> <span>   <img class="ico-top-card-desc" src="./img/down.png" alt="">  &nbsp;</span> Tracked from github</p>
+                        </div>
+
+                    </div>
+                    <div class="col s12 m6 l6 xl3 adaptdiv">
+
+                        <div class="forcolorblock z-depth-3">
+
+                            <img class="colorblock-4 blockico-top z-depth-1" src="./img/paperplane_white.svg" alt="">
+                            <p class="hcard-text">FOLLOWERS</p>
+                            <p class="hcard-text-2">+245</p>
+                            <hr class="hronblock">
+                            <p class="desc-top-card"> <span>   <img class="ico-top-card-desc" src="./img/time.png" alt="">  &nbsp;</span> Just updated</p>
                         </div>
 
                     </div>
@@ -84,119 +87,131 @@
 
                 <div class="row">
                     <div class="col s12 m12 l4 xl4 graphblock ">
+                        <div class="blocks-graph">
+                            <img class="imggraph1" src="./img/graphics.svg" alt="">
+                            <p>Daily Sales</p>
+                            <p>55% increase in today sales</p>
+                            <hr>
 
-                        <img class="imggraph1" src="./img/graphics.svg" alt="">
-                        <p>Daily Sales</p>
-                        <p>55% increase in today sales</p>
-                        <hr>
-                        <p>updated 4 minutes ago</p>
+                            <p>updated 4 minutes ago</p>
+                        </div>
                     </div>
                     <div class="col s12 m12 l4 xl4 graphblock ">
+                        <div class="blocks-graph">
+                            <img class="imggraph2" src="./img/graphics.svg" alt="">
+                            <p>Email Subscription</p>
+                            <p>Last campaign performance</p>
+                            <hr>
 
-                        <img class="imggraph2" src="./img/graphics.svg" alt="">
-                        <p>Email Subscription</p>
-                        <p>Last campaign performance</p>
-                        <hr>
-                        <p>campaign send 2 days ago</p>
+                            <p>campaign send 2 days ago</p>
+                        </div>
                     </div>
                     <div class="col s12 m12 l4 xl4 graphblock ">
+                        <div class="blocks-graph">
+                            <img class="imggraph3" src="./img/graphics.svg" alt="">
+                            <p>Completed Tasks</p>
+                            <p>Last campaign performance</p>
+                            <hr>
 
-                        <img class="imggraph3" src="./img/graphics.svg" alt="">
-                        <p>Completed Tasks</p>
-                        <p>Last campaign performance</p>
-                        <hr>
-                        <p>campaign event 2 days ago</p>
+                            <p>campaign event 2 days ago</p>
+                        </div>
                     </div>
                 </div>
 
 
                 <div class="row">
                     <div class="col s12 m12 l12 xl6 task-employ">
-                        <div class="topplockk1 cte">
-                            <p>Tasks</p>
-                            <p>Bugs</p>
-                            <p>Website</p>
-                            <p>Server</p>
+
+                        <div class="checkers">
+
+                            <div class="topplockk1 cte">
+                                <p>Tasks</p>
+                                <p>Bugs</p>
+                                <p>Website</p>
+                                <p>Server</p>
+                            </div>
+
+
+                            <form class="color-check-form" action="#">
+                                <p>
+
+                                    <label>
+                                        <input type="checkbox" checked="checked" />
+                                        <span>Sign contract for "What are conference organizers afraid of?"</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>Lines From Great Germany Literature ? Or E-mails From My Boss ?</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>Sign contract for "What are conference organizers afraid of ?"</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input type="checkbox" checked="checked" />
+                                        <span>Sign contract for "What are conference organizers afraid of ?"</span>
+                                    </label>
+                                </p>
+
+                            </form>
                         </div>
-
-
-                        <form action="#">
-                            <p>
-
-                                <label>
-                                    <input type="checkbox" checked="checked" />
-                                    <span>Sign contract for "What are conference organizers afraid of?"</span>
-                                </label>
-                            </p>
-                            <p>
-                                <label>
-                                    <input type="checkbox" />
-                                    <span>Lines From Great Germany Literature ? Or E-mails From My Boss ?</span>
-                                </label>
-                            </p>
-                            <p>
-                                <label>
-                                    <input type="checkbox" />
-                                    <span>Sign contract for "What are conference organizers afraid of ?"</span>
-                                </label>
-                            </p>
-                            <p>
-                                <label>
-                                    <input type="checkbox" checked="checked" />
-                                    <span>Sign contract for "What are conference organizers afraid of ?"</span>
-                                </label>
-                            </p>
-
-                        </form>
-
                     </div>
                     <div class="col s12 m12 l12 xl6 task-employ ">
-                        <div class="topplockk2 cte">
-                            <p>Employess Stats</p>
-                            <p>New employess on 19th September, 2019</p>
+
+                        <div class="back-task-emp">
+
+                            <div class="topplockk2 cte">
+                                <p>Employess Stats</p>
+                                <p>New employess on 19th September, 2019</p>
+                            </div>
+
+
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>1</th>
+                                        <th>Salary</th>
+                                        <th>Country</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>$36.738</td>
+                                        <td>Niger</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>$36.738</td>
+                                        <td>Niger</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>$36.738</td>
+                                        <td>Niger</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>$36.738</td>
+                                        <td>Niger</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
                         </div>
-
-
-
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>1</th>
-                                    <th>Salary</th>
-                                    <th>Country</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>$36.738</td>
-                                    <td>Niger</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>$36.738</td>
-                                    <td>Niger</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>   
-                                    <td>1</td>
-                                    <td>$36.738</td>
-                                    <td>Niger</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>   
-                                    <td>1</td>
-                                    <td>$36.738</td>
-                                    <td>Niger</td>
-                                </tr>
-                                
-                            </tbody>
-                        </table>
-
                     </div>
                 </div>
 

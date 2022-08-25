@@ -1,8 +1,10 @@
-
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 .blocknav {
     display: block;
-
+background-color: #f6f6f6;
 }
 
 @media (max-width: 1200px) {
@@ -13,29 +15,71 @@
 
 
 .colorblock-1 {
-    background-color: green;
+    background-color:#448b00;
     position: absolute;
     top: -15px;
     left: 15px;
    
 }
 
+.desc-top-card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.ico-top-card-desc {
+    width: 12px;
+}
+
+.hronblock {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hcard-text-2 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-right: 10px;
+}
+
+.adaptdiv {
+    margin: 0px;
+    padding: 0px !important;
+}
+
+.hcard-text {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
 .colorblock-2 {
-    background-color: rgb(255, 208, 0);
+    background-color: 
+    #d89e24;
     position: absolute;
     top: -15px;
     left: 15px;
 }
 
 .colorblock-3 {
-    background-color: blue;
+    background-color: #274d97;
     position: absolute;
     top: -15px;
     left: 15px;
 }
 
 .colorblock-4 {
-    background-color: palevioletred;
+    background-color: #db7093;
     position: absolute;
     top: -15px;
     left: 15px;
@@ -43,40 +87,40 @@
 
 .forcolorblock {
     position: relative;
-    box-shadow: 2px 2px 5px rgb(207, 207, 207);
-margin: 10px;
+    /* box-shadow: 5px 5px 5px rgba(48, 48, 48, 0.884); */
+margin: 5px;
 text-align: right;
+background-color: white;
+padding-right: 
 }
 
-.graphblock {
-    box-shadow: 2px 2px 5px rgb(207, 207, 207);
 
 
-}
 
 .bg-main-col {
-    background-color: lightgray;
+    background-color: #eaeaea;
 }
 
 
 .imggraph1  {
     max-width: 100%;
     min-width: 100%;
-background-color: green;
+background-color: #448b00;
 
 }
 
 .imggraph2  {
     max-width: 100%;
     min-width: 100%;
-background-color:  rgb(255, 208, 0);
+background-color:  
+#d89e24;
 
 }
 
 .imggraph3  {
     max-width: 100%;
     min-width: 100%;
-background-color: blue;
+background-color: #274d97;
 
 }
 
@@ -93,11 +137,32 @@ background-color: blue;
 .topplockk1 {
     display: flex;
     flex-direction: row;
-    background-color: rgb(196, 160, 0);
+    background-color: 
+    #d89e24;
 }
 
 .topplockk2 {
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: #274d97;
+}
+
+.blocks-graph {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(48, 48, 48, 0.884);
+}
+
+.back-task-emp {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(48, 48, 48, 0.884);
+}
+
+.checkers {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(48, 48, 48, 0.884);
+    height: 375px;
+}
+
+.blockico-top {
+    padding: 10px;
 }
