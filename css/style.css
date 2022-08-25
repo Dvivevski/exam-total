@@ -324,3 +324,49 @@
     display: flex;
 }
 
+
+/* NEXT PAGE */
+
+
+
+.subm-button {
+    width: 100%;
+    background-color:  #c32056;
+}
+
+.subm-button:hover {
+    background-color: #ff0055;
+}
+
+.portrait {
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: -35px;
+}
+
+.wrap {
+    background-color: white;
+    margin-top: 53px;
+    text-align: center;
+    padding: 5px;
+}
+
+.alec-t {
+    font-weight: bolder;
+}
+
+.topplockk3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #c32056;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+
+}
+
+.form-account {
+    padding: 10px;
+}
