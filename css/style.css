@@ -131,10 +131,7 @@ background-color: #274d97;
 position: absolute;
 }
 
-.task-employ {
-    /* box-shadow: 2px 2px 5px rgb(207, 207, 207); */
 
-}
 
 
 .cte {
@@ -171,6 +168,10 @@ background-color: #ffae00;;
     display: flex;
     flex-direction: column;
     background-color: #274d97;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
 }
 
 .blocks-graph {
@@ -256,4 +257,28 @@ background-color: #d89e24;;
 
 .row_ch {
     margin-bottom: 0px !important;
+}
+
+.text-employ {
+    margin: 0px;
+padding-left: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+
+}
+
+.color-tr-th {
+    color: #38b498;
+}
+
+.salary-table {
+    margin-left: 10px !important;
+}
+
+.bot-block-size {
+    height: 325px !important;
+}
+
+.mbb-2 {
+    margin-top: 25px;
 }
