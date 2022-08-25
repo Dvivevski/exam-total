@@ -91,7 +91,6 @@ background-color: #f6f6f6;
 margin: 5px;
 text-align: right;
 background-color: white;
-padding-right: 
 }
 
 
@@ -102,26 +101,34 @@ padding-right:
 }
 
 
-.imggraph1  {
-    max-width: 100%;
-    min-width: 100%;
-background-color: #448b00;
+.imggraph {
+    position: relative;
+    overflow: hidden;
+}
 
+.imggraph1  {
+    /* max-width: 90%; */
+    /* min-width: 90%; */
+    width: 18%;
+background-color: #448b00;
+position: absolute;
 }
 
 .imggraph2  {
-    max-width: 100%;
-    min-width: 100%;
+    /* max-width: 90%; */
+    /* min-width: 90%; */
+    width: 18%;
 background-color:  
 #d89e24;
-
+position: absolute;
 }
 
 .imggraph3  {
-    max-width: 100%;
-    min-width: 100%;
+    /* max-width: 90%; */
+    /* min-width: 90%; */
+    width: 18%;
 background-color: #274d97;
-
+position: absolute;
 }
 
 .task-employ {
@@ -150,6 +157,7 @@ background-color: #274d97;
 .blocks-graph {
     background-color: white;
     box-shadow: 5px 5px 5px rgba(48, 48, 48, 0.884);
+    overflow: hidden;
 }
 
 .back-task-emp {
@@ -165,4 +173,44 @@ background-color: #274d97;
 
 .blockico-top {
     padding: 10px;
+}
+
+
+
+
+.graphimg {
+    width: 90%;
+   
+    position: relative;
+    top: -10px;
+    padding: 10px;
+}
+
+.c1 {
+    background-color: #448b00;
+}
+
+.c2 {
+background-color: #d89e24;;
+}
+
+.c3 {
+    background-color: #274d97;
+}
+
+.graphcont {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-graph {
+    text-align: start;
+}
+
+.graph-text-d {
+    padding-left: 0px;
+    margin: 0px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
