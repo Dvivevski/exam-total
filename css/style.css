@@ -9,8 +9,6 @@
 }
 
 
-
-
 @media (max-width: 1200px) {
     .blocknav {
         display: none;
@@ -293,9 +291,7 @@
     color: black;
 }
 
-.colorweb-ico-web {
-    
-}
+.colorweb-ico-web {}
 
 .li-nav-btn-active {
     width: 100%;
@@ -311,10 +307,12 @@
 }
 
 .navimages-left {
-  width: 20px;
+    width: 20px;
 }
 
-.li-nav-btn-active, .li-nav-btn, .i-s-n {
+.li-nav-btn-active,
+.li-nav-btn,
+.i-s-n {
     display: flex;
     align-items: center;
 
@@ -328,10 +326,9 @@
 /* NEXT PAGE */
 
 
-
 .subm-button {
     width: 100%;
-    background-color:  #c32056;
+    background-color: #c32056;
 }
 
 .subm-button:hover {
