@@ -5,7 +5,11 @@
 .blocknav {
     display: block;
     background-color: #f6f6f6;
+    height: 880px;
 }
+
+
+
 
 @media (max-width: 1200px) {
     .blocknav {
@@ -281,3 +285,42 @@
 .mbb-2 {
     margin-top: 25px;
 }
+
+
+.li-nav-btn {
+    width: 100%;
+    background-color: #eaeaea;
+    color: black;
+}
+
+.colorweb-ico-web {
+    
+}
+
+.li-nav-btn-active {
+    width: 100%;
+    background-color: #c32056;
+}
+
+.li-nav-btn-active:hover {
+    background-color: #c32056;
+}
+
+.li-nav-btn:hover {
+    background-color: #ff0055;
+}
+
+.navimages-left {
+  width: 20px;
+}
+
+.li-nav-btn-active, .li-nav-btn, .i-s-n {
+    display: flex;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+}
+
